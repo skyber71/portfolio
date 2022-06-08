@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Poppins:wght@200&display=swap');
+
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+.full-view{
+    height: 100vh;
+}
+nav{
+    padding: 5px 30px;
+    justify-content: space-between;
+    display: flex;
+}
+nav h1{
+    color: rgb(10, 100, 190);
+    font-size: 30px;
+    /* text-shadow: rgb(180, 176, 176) 5px 5px 5px; */
+    font-family: 'Bad Script', cursive;
+    /* font-family: 'Poppins', 'sans-serif'; */
+
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    font-weight: 900;
+    font-family: 'Poppins', 'sans-serif';
+}
+nav ul li{
+    letter-spacing: 1px;
+    cursor: pointer;
+    margin: auto 20px;
+}
+.front{
+    height: 100vh;
+    background: linear-gradient(to right, rgba(126, 128, 187, 0.606) 40%, rgb(255, 255, 255) 0%);
+}
+.info{
+    display: flex;
+    -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.56);
+    box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.56);
+    background: linear-gradient(to left, rgb(186, 187, 230) 50%, rgb(255, 255, 255) 50%);
+    margin: auto;
+    position: relative;
+    top: 10%;
+    height: 450px;
+    width: 750px;
+}
+.info-left, .info-right{
+    width: 50%
+}
+.profile{
+    cursor: pointer;
+    transition: 0.5s all;
+    -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.56);
+    -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.56);
+    box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.56);
+    margin: 10% auto 0;
+    background-image: url("../img/profile.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+}
+.profile:active{
+    transform: scale(0.7);
+
+}
+.info-left .name{
+    text-shadow: rgb(180, 176, 176) 5px 5px 5px;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 200%;
+    font-weight: 900;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+.desc{
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 20px 30px;
+    text-align: center;
+    font-family: 'Poppins', 'sans-serif';
+
+}
+
+.btn{
+    cursor: pointer;
+    color: dodgerblue;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid dodgerblue;
+    position: relative;
+    left: 34%;
+    height: 40px;
+    width: 120px;
+    transition: 0.2s all;
+}
+.btn i{
+    
+    font-size: 25px;
+}
+
+.btn:hover{
+    color: white;
+    background-color: dodgerblue;
+    border: 3px solid dodgerblue;
+}
+.btn:active{
+    transform: scale(0.7);
+}
+
+.contact{
+    margin-top: 50%;
+    color: white;
+    float: right;
+    width: 15%;
+    height: 50%;
+    display: block;
+    /* background-color: rgb(234, 244, 247); */
+    text-align: center;
+}
+.contact i{
+    transition: 0.2s all;
+    cursor: pointer;
+    font-size: 25px;
+    padding: 10px 7px;
+}
+.contact i:active{
+    color: rgb(18, 79, 171);
+    transform: scale(0.5);
+}
+.contact i:hover{
+    color: gray;
+}
+.details{
+    margin: auto;
+    width: 70%;
+    height: 100%;
+}
+.details h1{
+    padding-top: 45px;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Poppins', 'sans-serif';
+
+}
+.info-right{
+    justify-content: space-between;
+    display: flex;
+}
+
+.details p{
+    font-weight: 600;
+    padding: 5px;
+    font-family: 'Poppins', 'sans-serif';
+
+}
+.btn1{
+    float: right;
+    font-size: 17px;
+    margin: 25px auto;
+    cursor: pointer;
+    color: white;
+    border-radius: 20px;
+    background-color: rgb(228, 121, 75);
+    border: 3px solid rgb(228, 121, 75);
+    position: relative;
+    height: 40px;
+    width: 120px;
+    transition: 0.2s all;
+}
+
+.btn1:hover{
+    color: white;
+    background-color: dodgerblue;
+    border: 3px solid dodgerblue;
+
+}
+.btn1:active{
+    transform: scale(0.7);
+}
+.about,.projects,.education{
+    height: 100vh;
+}
+.headin{
+    text-align: center;
+    text-shadow: rgb(180, 176, 176) 5px 5px 5px;
+    color: dodgerblue;
+    font-size: 25px;
+    padding: 10px 30px;
+    font-family: 'Poppins', 'sans-serif';
+    letter-spacing: 4px;
+
+}
