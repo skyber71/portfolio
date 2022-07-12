@@ -62,7 +62,7 @@ nav ul li{
 }
 .profile{
     cursor: pointer;
-    transition: 0.5s all;
+    transition: 0.1s all;
     -webkit-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.56);
     -moz-box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.56);
     box-shadow: 0px 0px 20px -2px rgba(0,0,0,0.56);
@@ -108,7 +108,7 @@ nav ul li{
     left: 34%;
     height: 40px;
     width: 120px;
-    transition: 0.2s all;
+    transition: 0.1s all;
 }
 .btn i{
     
@@ -135,7 +135,7 @@ nav ul li{
     text-align: center;
 }
 .contact i{
-    transition: 0.2s all;
+    transition: 0.1s all;
     cursor: pointer;
     font-size: 25px;
     padding: 10px 7px;
@@ -181,7 +181,7 @@ nav ul li{
     border: 3px solid rgb(228, 121, 75);
     height: 40px;
     width: 120px;
-    transition: 0.2s all;
+    transition: 0.1s all;
 }
 
 .btn1:hover{
