@@ -97,21 +97,25 @@ nav ul li{
     font-family: 'Poppins', 'sans-serif';
 
 }
+.batan{
+    display: flex;
+    padding: 10px;
+}
 
 .btn{
+    font-size: 17px;
+    margin: 5px auto;
     cursor: pointer;
-    color: dodgerblue;
-    background-color: white;
+    color: white;
     border-radius: 20px;
-    border: 3px solid dodgerblue;
-    position: relative;
-    left: 34%;
+    background-color: rgb(228, 121, 75);
+    border: 3px solid rgb(228, 121, 75);
     height: 40px;
     width: 120px;
     transition: 0.1s all;
 }
+
 .btn i{
-    
     font-size: 25px;
 }
 
@@ -131,7 +135,6 @@ nav ul li{
     width: 15%;
     height: 50%;
     display: block;
-    /* background-color: rgb(234, 244, 247); */
     text-align: center;
 }
 .contact i{
