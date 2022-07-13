@@ -12,7 +12,7 @@ body{
 
 }
 .full-view{
-    height: 100vh;
+    height:100vh;
 }
 nav{
     padding: 5px 30px;
@@ -22,10 +22,7 @@ nav{
 nav h1{
     color: rgb(10, 100, 190);
     font-size: 30px;
-    /* text-shadow: rgb(180, 176, 176) 5px 5px 5px; */
     font-family: 'Bad Script', cursive;
-    /* font-family: 'Poppins', 'sans-serif'; */
-
 }
 nav ul{
     list-style: none;
@@ -150,6 +147,9 @@ nav ul li{
 .contact i:hover{
     color: gray;
 }
+.contact a:visited, .contact a:hover, .contact a:active{
+    color: inherit;
+}
 .details{
     margin: auto;
     width: 70%;
@@ -197,7 +197,7 @@ nav ul li{
     transform: scale(0.7);
 }
 .about,.projects,.education{
-    height: 100vh;
+    height: 800px;
 }
 .headin{
     text-align: center;
