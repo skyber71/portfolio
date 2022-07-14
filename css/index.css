@@ -8,7 +8,7 @@
 body{
     max-width: 1300px;
     margin: auto;
-    background-color: rgba(219, 233, 248, 0.6);
+    background-color: white;
 
 }
 .full-view{
@@ -19,10 +19,16 @@ nav{
     justify-content: space-between;
     display: flex;
 }
-nav h1{
-    color: rgb(10, 100, 190);
-    font-size: 30px;
-    font-family: 'Bad Script', cursive;
+nav .h1{
+    cursor: pointer;
+    margin-left: 20px;
+    background-image: url("../img/Y.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    height: 60px;
+    width: 60px;
+    
 }
 nav ul{
     list-style: none;
@@ -31,10 +37,18 @@ nav ul{
     font-family: 'Poppins', 'sans-serif';
 }
 nav ul li{
+    color: black;
     letter-spacing: 1px;
     cursor: pointer;
     margin: auto 20px;
 }
+nav ul li:visited{
+    color: inherit;
+}
+nav ul li a{
+    color: black;
+}
+
 .front{
     height: 800px;
     background: linear-gradient(to right, rgba(126, 128, 187, 0.606) 40%, rgb(255, 255, 255) 0%);
@@ -135,6 +149,7 @@ nav ul li{
     text-align: center;
 }
 .contact i{
+    color: white;
     transition: 0.1s all;
     cursor: pointer;
     font-size: 25px;
@@ -212,3 +227,45 @@ nav ul li{
 .introMy{
     letter-spacing: 1px;
 }
+
+.text{
+    font-size: 20px;
+    font-family: 'Poppins', 'sans-serif';
+}
+.typing{
+    color: dodgerblue;
+}
+.about-line{
+    margin-left: 30px;
+    padding: 20px;
+    width: 50%;
+}
+.about{
+    background-color: rgb(232, 242, 242);
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #8f54a0 #ffffff;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #8f54a0;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+
+  .degree, .skill-front{
+    color: rgb(30, 0, 255);
+  }

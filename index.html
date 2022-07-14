@@ -9,11 +9,13 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" href="./img/favicon.ico">
     <script src="https://kit.fontawesome.com/552542671f.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
 </head>
 
 <body>
     <nav>
-        <h1>Kiran Yadav</h1>
+        <div class="h1"></div>
         <ul>
             <li><a href="#about">About</a></li>
             <li><a href="#education">Education</a></li>
@@ -36,9 +38,9 @@
                 <div class="details">
                     <h1>Heyy!</h1>
                     <p class="introMy">My short intro 🙋‍♂️</p>
-                    <p>I am a 2<sup>nd</sup> Year B.Tech Computer Science undergrad at DY Patil International
-                        University, Pune. I am good at Data Structures and algorithms, C++ and Full stack Web
-                        Development.</p>
+                    <p>I am a 2<sup>nd</sup> Year <span class="degree">B.Tech Computer Science</span> undergrad at DY Patil International
+                        University, Pune. I am good at <span class="skill-front">DSA</span> ,<span class="skill-front"> C++</span> and <span class="skill-front">Full stack Web
+                        Development</span> .</p>
                 </div>
                 <div class="contact">
                     <a href="mailto:mail.kiranyadav1@gmail.com"><i class="fa-solid fa-envelope"></i></a>
@@ -50,10 +52,20 @@
             </div>
         </div>
     </div>
+
+
+
     <div class="about" id="about">
+
         <div class="headin">
             <h1>ABOUT</h1>
         </div>
+
+        <div class="about-line">
+            <div class="text">Hello! Myself Kiran and I'm a <span class="typing"></span></div>
+        </div>
+
+
     </div>
     <div class="education" id="education">
         <div class="headin">
@@ -66,6 +78,7 @@
             <h1>PROJECTS</h1>
         </div>
     </div>
+    <script src="js/index.js"></script>
 </body>
 
 </html>
